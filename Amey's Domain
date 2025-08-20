@@ -1,0 +1,9 @@
+<!-- Simple link to your domain -->
+<a href="https://ameysdomain.com" target="_blank">Visit Amey's Domain</a>
+
+<!-- Form input example -->
+<form action="https://ameysdomain.com" method="get">
+  <label for="domain">Domain Name:</label>
+  <input type="text" id="domain" name="domain" value="https://ameysdomain.com">
+  <input type="submit" value="Submit">
+</form>
