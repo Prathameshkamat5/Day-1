@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>footer</title>
+<style>
+/*Footer */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 20px;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.footer-col {
+    flex: 1;
+    min-width: 150px;
+}
+.footer-col h4 {
+    margin-bottom: 10px;
+}
+.footer-col a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+.footer-col a:hover {
+    color: #fff;
+}
+.footer-col a u {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #ccc;
+    transition: color 0.3s ease;
+}
+.footer-col a i:hover {
+    color: #fff;
+}
+.social_icon{
+    text-align: center; padding: 20px;
+}
+.social_icon span a{
+    display: inline-block;
+}
+</style>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+        <div class="footer-col">
+            <h4>Menu</h4>
+            <a href= "#about-section">About</a><br>
+            <a href= "#contact-section">Contact</a>
+        </div>
+        <div class="footer-col">
+            <h4>Resources</h4>
+            <a href="http://web.dev/learn/css/box-model" target="_blank">Box
+Model</a><br>
+        <a href="http://www.freecodecamp.org/learn/2022/responsive-web-design/"
+target="_blank">Responsive Web Design</a>
+        </div>
+        <div class="footer-col social_icon">
+            <h4>Follow Me</h4>
+            <span>
+            <a href="#"><i class="fab fa-github"></i></a>
+            </span>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
